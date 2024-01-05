@@ -36,9 +36,9 @@ export default function RootLayout({
               {children}
             </div>
             <div className="content-bottom">
-              <div>o</div>
-              <div>o</div>
-              <div>o</div>
+              <a href="/about">o</a>
+              <a href="/projects">o</a>
+              <a href="/skills">o</a>
             </div>
           </div>
           <div className="wing">
