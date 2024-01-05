@@ -19,9 +19,35 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>
-          {children}
-        </main>
+        <div className="main-container">
+          <div className="wing">
+            <a href="">bulb</a>
+            <a href="">hand</a>
+            <a href="">linked in</a>
+            <a href="">email</a>
+          </div>
+          <div className="content-container">
+            <div className="content-top">
+              <a href="/about">o</a>
+              <a href="/projects">o</a>
+              <a href="/skills">o</a>
+            </div>
+            <div className="content">
+              {children}
+            </div>
+            <div className="content-bottom">
+              <div>o</div>
+              <div>o</div>
+              <div>o</div>
+            </div>
+          </div>
+          <div className="wing">
+            <a href="">bulb</a>
+            <a href="">hand</a>
+            <a href="">linked in</a>
+            <a href="">email</a>
+          </div>
+        </div>
       </body>
     </html>
   )
