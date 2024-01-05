@@ -28,9 +28,13 @@ export default function RootLayout({
           </div>
           <div className="content-container">
             <div className="content-top">
-              <a href="/about">o</a>
-              <a href="/projects">o</a>
-              <a href="/skills">o</a>
+              <h1>Nick Myers</h1>
+              <div>
+                <a href="/">o</a>
+                <a href="/projects">o</a>
+                <a href="/skills">o</a>
+              </div>
+              <h2>Full Stack Engineer</h2>
             </div>
             <div className="content">
               {children}
