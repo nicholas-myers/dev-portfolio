@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../styles/globals.css'
 import '../styles/wing.css'
-import Wing from '@/components/Wing'
+import LeftNavigator from '@/components/LeftNavigator'
+import RightNavigator from '@/components/RightNavigator'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -37,10 +39,12 @@ export default function RootLayout({
               <h2>Full Stack Engineer</h2>
             </div>
             <div className="content">
+              <LeftNavigator />
               {children}
+              <RightNavigator />
             </div>
             <div className="content-bottom">
-              <a href="/about">o</a>
+              <a href="/">o</a>
               <a href="/projects">o</a>
               <a href="/skills">o</a>
             </div>
