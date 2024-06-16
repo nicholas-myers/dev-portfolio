@@ -1,7 +1,14 @@
 const Dashboard = () => {
     return (
         <div>
-            <p>test</p>
+            <nav>
+                <a href="">About</a>
+                <a href="">Projects</a>
+                <a href="">Skills</a>
+            </nav>
+            <main>
+                Content will go here.
+            </main>
         </div>
     )
 }
