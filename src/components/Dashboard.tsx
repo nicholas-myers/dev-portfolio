@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom"
 import About from "./About"
 import DashboardNav from "./DashboardNav"
 import Projects from "./Projects"
@@ -9,9 +10,7 @@ const Dashboard = () => {
             <DashboardNav />
             <main>
                 Content will go here.
-                <About />
-                <Projects />
-                <Skills />
+                <Outlet />
             </main>
         </div>
     )
