@@ -9,7 +9,6 @@ const Dashboard = () => {
         <div>
             <DashboardNav />
             <main>
-                Content will go here.
                 <Outlet />
             </main>
         </div>
