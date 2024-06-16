@@ -1,11 +1,9 @@
+import DashboardNav from "./DashboardNav"
+
 const Dashboard = () => {
     return (
         <div>
-            <nav>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Skills</a>
-            </nav>
+            <DashboardNav />
             <main>
                 Content will go here.
             </main>

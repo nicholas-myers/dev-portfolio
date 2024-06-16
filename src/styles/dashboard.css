@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    padding: 1em;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
