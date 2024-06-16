@@ -1,0 +1,20 @@
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accessibility {
+    display: flex;
+    width: max-content;
+}
+
+.accessibility button, select {
+    margin: 1em;
+    padding: 1em
+}
+
+.accessibility button {
+    padding: 1em;
+}
