@@ -5,10 +5,23 @@ nav {
 }
 
 nav a {
-    padding: 1em;
+    padding: 0.5em;
     border: 1px solid black;
     width: 100%;
     text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+.active-link {
+    background-color: black;
+    color: white;
 }
 
 main {

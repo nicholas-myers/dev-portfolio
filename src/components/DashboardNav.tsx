@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 
 const DashboardNav = () => {
     return (
         <nav>
-            <Link to="about">About</Link>
-            <Link to="projects">Projects</Link>
-            <Link to="skills">Skills</Link>
+            <NavLink to="about" className={({ isActive }) => isActive ? "active-link" : ""}>About</NavLink>
+            <NavLink to="projects" className={({ isActive }) => isActive ? "active-link" : ""}>Projects</NavLink>
+            <NavLink to="skills" className={({ isActive }) => isActive ? "active-link" : ""}>Skills</NavLink>
         </nav>
     )
 }
