@@ -1,0 +1,15 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+
+.about-container img {
+    border: 2px solid black;
+}
+.about-container p {
+    font-size: 2em;
+}

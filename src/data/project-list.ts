@@ -6,7 +6,7 @@ const projectList: Project[] = [
         url: "url.com",
         git: "github.com",
         description: "Tool to Automate conversion of fields",
-        tags: ["react", "typescript"]
+        tags: ["react", "typescript", "node", "mongodb", "MERN"]
     },
     {
         name: "Model View Controller",
@@ -45,6 +45,13 @@ const projectList: Project[] = [
     },
     {
         name: "Mobile",
+        url: "url.com",
+        git: "github.com",
+        description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        tags: ["react", "typescript"]
+    },
+    {
+        name: "GIS",
         url: "url.com",
         git: "github.com",
         description: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
