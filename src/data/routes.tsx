@@ -1,8 +1,7 @@
-import App from "./App";
-import About from "./components/About";
-import ErrorPage from "./components/ErrorPage";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import App from "../App";
+import About from "../components/About";
+import ErrorPage from "../components/ErrorPage";
+import Projects from "../components/Projects";
 
 export const routes = [
   {
@@ -21,10 +20,6 @@ export const routes = [
       {
         path: "projects",
         element: <Projects />
-      },
-      {
-        path: "skills",
-        element: <Skills />
       }
     ]
   }

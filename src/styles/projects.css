@@ -1,0 +1,46 @@
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-flow: row wrap;
+    gap: 1.5em;
+}
+
+.project-card {
+    border: 1px solid black;
+}
+
+.project-card-header {
+    border-bottom: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+.project-card-img {
+    height: 5em;
+    border-bottom: 1px solid black;
+}
+
+.project-card-content {
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+.project-card-tags {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.tag {
+    border: 1px solid black;
+    width: max-content;
+    padding: 0.3em;
+}
