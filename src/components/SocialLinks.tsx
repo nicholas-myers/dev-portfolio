@@ -8,18 +8,27 @@ interface SocialLinkProps {
 }
 
 const SocialLinks = ({ direction }: SocialLinkProps) => {
+
+    const copyEmail = () => {
+        var email = "korefucius00@gmail.com";
+        navigator.clipboard.writeText(email)
+        alert("Email: " + email + " copied to clipboard.")
+    }
     return (
         <div className={`social-links ${direction}`}>
             <IconContext.Provider value={{ size: "3em" }}>
-                <a href="" target="_blank"></a>
-                <a href="" target="_blank"></a>
-                <FaLinkedin />
-                <FaGithubSquare />
+                <a href="https://www.linkedin.com/in/nicholas-myers-professional/" target="_blank">
+                    <FaLinkedin />
+                </a>
+                <a href="https://github.com/nicholas-myers" target="_blank">
+                    <FaGithubSquare />
+                </a>
             </IconContext.Provider>
             <IconContext.Provider value={{ size: "3.8em" }}>
-                <MdEmail />
+                <div className="email" onClick={() => copyEmail()}>
+                    <MdEmail />
+                </div>
             </IconContext.Provider>
-
         </div>
     )
 }
